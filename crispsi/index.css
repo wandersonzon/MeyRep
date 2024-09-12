@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+.logo {
+    margin-right: 60%;
+}
+.logo img {
+    height: 150px; /* Ajuste o tamanho do logo conforme necessário */
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    margin: 0 15px;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.btn{
+    width: 75px;
+    height: 75px;
+}
+
+.redes img{
+    height: 50px;
+    margin: 1;
+}
+
+.main{
+    background-color: #333;
+}
+.main img{
+    filter: opacity(60%);
+    height: 50%;
+    width: 100%;
+}
