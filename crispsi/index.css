@@ -1,4 +1,5 @@
 body {
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -34,9 +35,11 @@ body {
     text-decoration: underline;
 }
 
-.btn{
-    width: 75px;
-    height: 75px;
+.main{
+    background-image: url(bg_main2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .redes img{
@@ -44,11 +47,35 @@ body {
     margin: 1;
 }
 
-.main{
-    background-color: #333;
+.txt_dec {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: right;
 }
-.main img{
-    filter: opacity(60%);
-    height: 50%;
-    width: 100%;
+
+#pre{ 
+    text-align: left;
+    padding: 20px;
+    color:whitesmoke
+}
+
+#ig_my{
+    height: 300px;
+    margin-right: 300px;
+}
+
+
+
+h1{
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#tb_main {
+    margin-top: 70px;
+}
+.stl_tb{
+    border-top: 5px solid wheat;
 }
