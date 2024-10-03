@@ -12,7 +12,7 @@ body {
     padding: 10px 20px;
 }
 .logo {
-    margin-right: 60%;
+    margin-right: 65%;
 }
 .logo img {
     height: 150px; /* Ajuste o tamanho do logo conforme necessário */
@@ -35,16 +35,17 @@ body {
     text-decoration: underline;
 }
 
-.main{
+body{
     background-image: url(bg_main2.jpg);
-    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-
+    background-size: cover;
+    background-position: center;
 }
 
 .redes img{
     height: 50px;
-    margin: 1;
+    margin: 0;
 }
 
 .txt_dec {
@@ -62,13 +63,12 @@ body {
 
 #ig_my{
     height: 300px;
-    margin-right: 300px;
+
 }
 
 
 
 h1{
-    padding: 20px;
     color: whitesmoke;
     text-decoration: underline;
 }
@@ -78,4 +78,18 @@ h1{
 }
 .stl_tb{
     border-top: 5px solid wheat;
+}
+
+#psi_mn{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    margin-top: 30%;
+    display: block;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
 }
