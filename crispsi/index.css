@@ -83,6 +83,7 @@ h1{
 #psi_mn{
     display: flex;
     flex-direction: row;
+    padding-left: 100px;
 }
 
 .footer{
@@ -96,6 +97,13 @@ h1{
 .container{
     display: flex;
     flex-direction: row;
+    padding-left: 20px;
+}
+.cont2{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
 }
 
 #prt1 h1{
@@ -103,4 +111,12 @@ h1{
     text-align: center;
     font-size: 23px;
     opacity: 1;
+}
+
+body{
+    background: black, opacity(100%), ;
+}
+p, h1{
+    color: cornsilk;
+    text-shadow: 50pt, black;
 }
