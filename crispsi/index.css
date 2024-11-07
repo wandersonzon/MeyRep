@@ -49,10 +49,11 @@ body{
 }
 
 .txt_dec {
-    padding: 20px;
+    background-image: ;
+    padding: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
-    text-align: right;
+    text-align: center;
 }
 
 #pre{ 
@@ -102,7 +103,7 @@ h1{
 .cont2{
     align-items: center;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     padding-right: 30px;
 }
 
